@@ -12,7 +12,7 @@ model = pickle.load(open(filename,'rb'))
 
 pclass_d = {0:"Pierwsza",1:"Druga", 2:"Trzecia"}
 embarked_d = {0:"Cherbourg", 1:"Queenstown", 2:"Southampton"}
-sex_d = {0:"M",1:"F"}
+sex_d = {0:"F",1:"M"}
 # o ile wcześniej kodowaliśmy nasze zmienne, to teraz wprowadzamy etykiety z ich nazewnictwem
 
 def main():
